@@ -9,8 +9,8 @@ def read_md(file_path):
         return "Long description not available"
 
 setup(
-    name='WebSeeker',
-    version='0.0.0.1',
+    name='PyFixer',
+    version='0.0.0.2',
     packages=find_packages(),
     description='A package to enable commonly used functions through 1 line of code.',
     long_description=read_md('readme.md'),
