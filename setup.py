@@ -10,7 +10,7 @@ def read_md(file_path):
 
 setup(
     name='PyFixer',
-    version='0.0.0.2',
+    version='0.0.0.3',
     packages=find_packages(),
     description='A package to enable commonly used functions through 1 line of code.',
     long_description=read_md('readme.md'),
