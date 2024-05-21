@@ -10,7 +10,7 @@ def read_md(file_path):
 
 setup(
     name='PyFixer',
-    version='0.0.0.4',
+    version='0.0.0.5',
     packages=find_packages(),
     description='A package to enable commonly used functions through 1 line of code.',
     long_description=read_md('readme.md'),
@@ -21,6 +21,8 @@ setup(
     install_requires=[
         'pandas',
         'numpy',
+        'beautifulsoup4',
+        'memory_profiler',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
